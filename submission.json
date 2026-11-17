@@ -1,0 +1,44 @@
+
+{
+  "exam": {
+    "title": "Docker Containerization Practical Examination",
+    "project": "TaskFlow",
+    "total_marks": 100,
+    "duration_minutes": 180
+  },
+  "student": {
+    "name": "atinder-JERM",
+    "roll_number": "",
+    "section": "",
+    "github_username": "atinder-JERM",
+    "dockerhub_username": "atinderjerm"
+  },
+  "repositories": {
+    "starter_repository": "taskflow-docker",
+    "submission_repository": "",
+    "instructor_repository": "task-docker-evaluation"
+  },
+  "docker_images": {
+    "frontend": "",
+    "backend": ""
+  },
+  "deployment": {
+    "compose_file": "docker-compose.deploy.yml",
+    "application_url": "",
+    "backend_health_url": ""
+  },
+  "implementation": {
+    "frontend_dockerfile": true,
+    "backend_dockerfile": true,
+    "docker_compose": true,
+    "deployment_compose": true,
+    "dockerhub_images_published": true,
+    "postgres_persistence": true,
+    "redis_integration": true
+  },
+  "submission": {
+    "pull_request_url": "",
+    "submitted_at": "",
+    "declaration": "I confirm that this submission is my own work and that I have tested the Docker deployment."
+  }
+}
