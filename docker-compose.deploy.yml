@@ -1,6 +1,6 @@
 services:
   frontend:
-    image: YOUR_DOCKERHUB_USERNAME/taskflow-frontend:v1
+    image: ${DOCKERHUB_USERNAME}/taskflow-frontend:v1
     ports:
       - "8080:80"
     depends_on:
