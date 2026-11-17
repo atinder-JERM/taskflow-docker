@@ -10,7 +10,7 @@ services:
     networks: [taskflow-net]
 
   backend:
-    image: YOUR_DOCKERHUB_USERNAME/taskflow-backend:v1
+    image: ${DOCKERHUB_USERNAME}/taskflow-backend:v1
     env_file: .env
     ports:
       - "3000:3000"
