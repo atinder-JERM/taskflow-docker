@@ -1,5 +1,5 @@
-// import request from 'supertest';
-const request = require('supertest');
+import request from 'supertest';
+//const request = require('supertest');
 
 const BASE_URL = process.env.BASE_URL || 'http://localhost:3000';
 const api = request(BASE_URL);
